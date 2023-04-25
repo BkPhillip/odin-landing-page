@@ -11,6 +11,20 @@ body {
     color: #F9FAF8;
 }
 
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 80px 40px;
+}
+
+
+.header ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    margin-left: auto;
+}
+
 .card-container {
     display: flex;
     flex-direction: column;
@@ -20,6 +34,12 @@ body {
 .all-cards {
     display: flex;
     justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 100px;
 }
 
 .image {
@@ -32,13 +52,12 @@ body {
 .quote-container {
     background-color: #E5E7EB;
     color: #1f2937;
+    padding: 40px 160px;
 }
 
-/* .cta-containter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+.quote-author {
+    text-align: right;
+}
 
 .call-to-action {
     background-color: #3882F6;
