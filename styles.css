@@ -2,6 +2,24 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all-cards {
+    display: flex;
+    justify-content: center;
 }
 
 .image {
@@ -9,6 +27,22 @@ body {
     height: 100px;
     border: 2px solid blue;
     border-radius: 10px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    color: #1f2937;
+}
+
+/* .cta-containter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.call-to-action {
+    background-color: #3882F6;
+    margin: 40px 80px;
 }
 
 .footer {
