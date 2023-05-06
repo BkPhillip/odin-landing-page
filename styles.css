@@ -14,7 +14,7 @@ body {
 /************************ HEADER **********************/
 
 .header {
-    padding: 0 120px 40px;
+    padding: 0 160px 40px;
 }
 
 .nav-bar {
@@ -58,12 +58,12 @@ body {
 }
 
 .card {
-    width: 100px;
+    width: 120px;
 }
 
 .card-image {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border: 2px solid blue;
     border-radius: 10px;
 }
@@ -73,7 +73,7 @@ body {
 .quote-container {
     background-color: #E5E7EB;
     color: #1f2937;
-    padding: 40px 160px;
+    padding: 40px 240px;
 }
 
 .quote-author {
@@ -84,7 +84,15 @@ body {
 
 .call-to-action {
     background-color: #3882F6;
-    margin: 40px 80px;
+    margin: 60px 160px;
+    padding: 30px 120px;
+    display: flex;
+    
+}
+
+.call-to-action button {
+   margin-left: auto;
+   align-self: end;
 }
 
 /************************ FOOTER **********************/
