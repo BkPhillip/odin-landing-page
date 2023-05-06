@@ -126,7 +126,7 @@ button {
     margin: 60px 160px;
     padding: 30px 120px;
     display: flex;
-    
+    border-radius: 10px;
 }
 
 .call-to-action h3,
