@@ -14,16 +14,16 @@ button {
     border-style: none;
 }
 
-.header,
-.footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
-}
-
 
 /************************ HEADER **********************/
 .header {
     padding: 0 160px 40px;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .nav-bar {
@@ -79,7 +79,7 @@ button {
 
 .card-container h3 {
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 700;
     color: #1F2937;
 }
 
@@ -93,6 +93,7 @@ button {
 .card {
     width: 120px;
     font-size: 14px;
+    font-weight: 100;
 }
 
 .card-image {
